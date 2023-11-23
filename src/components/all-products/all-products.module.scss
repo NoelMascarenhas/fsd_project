@@ -1,0 +1,79 @@
+.root {
+    font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: block;
+    justify-content: start;
+    padding: 2rem 0rem;
+    gap: 2em;
+  }
+  
+  .p {
+    padding: 0.5rem 0rem;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style-type: none;
+  }
+  .span {
+    font-weight: 600;
+    color: #ff3a7a;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin: 2rem 0rem 0rem;
+  }
+  .grid-item {
+    font-size: 1rem;
+    text-align: center;
+    perspective: 2000;
+  }
+  .grid-img {
+    width: 100%;
+    border-radius: 1rem;
+    pointer-events: none;
+  }
+  .h4 {
+    font-weight: 500;
+  }
+  .visit-portofolio {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  .portofolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .path {
+    stroke-width: 3;
+    margin: 1rem;
+  }
+  
+  .socials {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .socials img {
+    height: 2.5rem;
+  }
+  .social-svg {
+    height: 2rem;
+    fill: #dc3232;
+  }
+  

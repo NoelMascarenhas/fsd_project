@@ -1,0 +1,234 @@
+.root {
+    font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: block;
+    justify-content: start;
+    padding: 2rem 0rem;
+    gap: 2em;
+  }
+  
+  .p {
+    padding: 0.5rem 0rem;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style-type: none;
+  }
+  .span {
+    font-weight: 600;
+    color: #ff3a7a;
+  }
+  // .grid {
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  //   grid-gap: 2rem;
+  //   margin: 2rem 0rem 0rem;
+  // }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  // .grid-item {
+  //   font-size: 1rem;
+  //   text-align: center;
+  //   perspective: 2000;
+  // }
+  .grid-item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  // .grid-img {
+  //   width: 100%;
+  //   border-radius: 1rem;
+  //   pointer-events: none;
+  // }
+  .grid-item:hover {
+    transform: scale(1.03);
+  }
+  
+  .grid-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .h4 {
+    font-weight: 500;
+  }
+  // .visit-portofolio {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-items: center;
+  //   align-content: center;
+  //   gap: 12px;
+  //   flex-direction: row;
+  //   justify-content: center;
+  // }
+  .visit-portfolio {
+    padding: 20px;
+  }
+  
+  .visit-portfolio a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .visit-portfolio a:hover {
+    background-color: #1f78c1;
+  }
+  .h3 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  .portofolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .path {
+    stroke-width: 3;
+    margin: 1rem;
+  }
+  
+  .socials {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .socials img {
+    height: 2.5rem;
+  }
+  .social-svg {
+    height: 2rem;
+    fill: #dc3232;
+  }
+  .product-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    max-width: 600px;
+    width: 80%;
+    text-align: left;
+  }
+  .product-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    max-width: 600px;
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-details p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .product-details ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .product-details li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .product-details a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-details a:hover {
+    background-color: #1f78c1;
+  }
+  
+  .product-details button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-details button:hover {
+    background-color: #c0392b;
+  }
+  .bid-section {
+    margin-top: 20px;
+  
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 16px;
+    }
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+  
+    .bid-button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #1f78c1;
+      }
+    }
+  }
